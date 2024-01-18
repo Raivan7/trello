@@ -5,9 +5,6 @@ import { defaultAuthedUser, defaultUsers } from "./constants/users";
 import { defaultBoardTasks, defaultBoards } from "./constants/boards";
 import storageService from "./services/storageService";
 
-
-
-
 function App() {
   useEffect(() => {
     if (!localStorage.getItem('users')) {
